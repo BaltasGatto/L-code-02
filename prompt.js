@@ -100,7 +100,10 @@ function bmiCalculator(weight, height) {
 
 console.log(bmiCalculator(77, 1.69));
 */
-
 const wilPay = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
-const random = willPay.lenght();
-console.log(random);
+
+const payingForTheLunch = Math.floor(Math.random() * wilPay.length);
+
+const paying = wilPay[payingForTheLunch];
+
+console.log(paying);
